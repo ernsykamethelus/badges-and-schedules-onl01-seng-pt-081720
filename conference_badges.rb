@@ -25,11 +25,10 @@ def assign_rooms(attendees)
 end
     
 def printer(attendees)
-  printer_attendees= []
-  puts batch_badge_creator
-  puts assign_attendees
+  batch_badge_creator(attendees).each{|badge| putd badge}
+  assign_rooms(attendees).each{|rooms| puts rooms
 end
 
 
-printer_attendees
+
 
