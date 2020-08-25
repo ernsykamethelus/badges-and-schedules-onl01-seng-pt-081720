@@ -26,6 +26,5 @@ end
     
 def printer(attendees)
   puts "Hello, my name is #{attendees}."
-  puts "Hello, #{attendees}! You'll be assigned to room #{index+1}!"
-end.join
+end.join("-")
 
