@@ -26,7 +26,7 @@ end
     
 def printer(attendees)
   attendees= []
-  puts "#"batch_badge_creator", "assign_attendees"""
+  puts 
 end
 
 
